@@ -10,7 +10,7 @@ public class FibonacciNumber
         int num1 = 0, num2 = 1;
         System.out.print("Fibonacci Series of "+count+" numbers:");
 
-        for (int i = 1; i <= count; i++)//if I put i++ or ++i as this loops finish it does matter what ever we put why?
+        for (int i = 1; i <= count; ++i)//if I put i++ or ++i as this loops finish it does matter what ever we put why?
         {
             System.out.print(num1+" ");
             /*
